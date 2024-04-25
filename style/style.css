@@ -1,9 +1,50 @@
-nav {
-    display: flex;
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  
+  
 }
 
-ul,li{
-    display: inline-block;
-    margin-right: 10px;
-    margin-right: 10px; 
+.text-primary{
+color: #fd6e0d;
+}
+
+.btn-primary{
+  border-radius: 5px;
+  background: #fd6e0d;
+  border: 0;
+  color:aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-titel {
+  color: #181818;
+  font-size:45px;
+  font-weight: 800;
+
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
     }
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a{
+  text-decoration: none;
+  color: darkgrey;
+}
